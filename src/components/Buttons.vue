@@ -11,20 +11,13 @@
         <div class="button-slot">
             <ButtonSlide cta="Button" />
         </div>
+
         <div class="button-slot">
             <ButtonCornerSlide cta="Button" />
         </div>
+
         <div class="button-slot">
-            <ButtonCornerSlide cta="Button" />
-        </div>
-        <div class="button-slot">
-            <ButtonCornerSlide cta="Button" />
-        </div>
-        <div class="button-slot">
-            <ButtonCornerSlide cta="Button" />
-        </div>
-        <div class="button-slot">
-            <ButtonCornerSlide cta="Button" />
+            <ButtonArrowToSide cta="Button" />
         </div>
     </div>
     <div class="col-12">
@@ -56,7 +49,7 @@
 }
 .button-slot{
     min-width: 7rem;
-    width: 10%;
+    width: fit-content;
     height: 5rem;
     display: flex;
     flex-direction: row;
