@@ -28,6 +28,6 @@ $bg: var(--bg);
 $txt: var(--txt);
 // NOTE This is another set of variables I scope out to make it easily editable, 
 // since many different elements use these for different cases
-$trans-time-1: 150ms;
-$trans-time-2: 275ms;
-$trans-time-3: 500ms;
+$trans1: 150ms;
+$trans2: 275ms;
+$trans3: 500ms;

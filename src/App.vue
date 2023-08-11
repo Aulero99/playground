@@ -2,7 +2,8 @@
   <header></header>
   <main>
     <!-- <GridTest/> -->
-    <Display/>
+    <Buttons/>
+
   </main>
   <footer></footer>
 </template>
