@@ -7,13 +7,18 @@
             </svg>
         </div>
         <div class="foreground">
-            Press Me
+            <img :src="icon" alt="ident" v-if="!cta"> 
+            {{ cta }}
         </div>
     </button>
 </template>
   
 <script>
   export default {
+    props:{
+        icon: {type: String},
+        cta: {type: String}
+    },
     setup() {
       return {
   

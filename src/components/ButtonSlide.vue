@@ -1,8 +1,23 @@
 <template>
   <button>
-    Press Me
+    <img :src="icon" alt="ident" v-if="!cta"> 
+    {{ cta }}
   </button>
 </template>
+
+<script>
+  export default {
+    props:{
+        icon: {type: String},
+        cta: {type: String}
+    },
+    setup() {
+      return {
+  
+      }
+    }
+  }
+</script>
 
 <style lang="scss" scoped>
 @import "../assets/scss/main.scss";

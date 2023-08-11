@@ -7,12 +7,24 @@
             </h1>
         </div>
     </div>
-    <div class="col-12 py-3 flex-row wrap justify-around">
+    <div class="col-12 wrap py-3 flex-row justify-around">
         <div class="button-slot">
-            <ButtonSlide/>
+            <ButtonSlide cta="Button" />
         </div>
         <div class="button-slot">
-            <ButtonCornerSlide/>
+            <ButtonCornerSlide cta="Button" />
+        </div>
+        <div class="button-slot">
+            <ButtonCornerSlide cta="Button" />
+        </div>
+        <div class="button-slot">
+            <ButtonCornerSlide cta="Button" />
+        </div>
+        <div class="button-slot">
+            <ButtonCornerSlide cta="Button" />
+        </div>
+        <div class="button-slot">
+            <ButtonCornerSlide cta="Button" />
         </div>
     </div>
     <div class="col-12">
@@ -36,8 +48,15 @@
 
 <style lang="scss" scoped>
 @import "../assets/scss/main.scss";
+.button-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .button-slot{
     min-width: 7rem;
+    width: 10%;
     height: 5rem;
     display: flex;
     flex-direction: row;
